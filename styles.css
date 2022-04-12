@@ -30,7 +30,6 @@ button, .call-to-action {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 5px;
-    border: none;
 }
 
 .information-header {
@@ -122,6 +121,8 @@ body {
 
 button {
     padding: 5px 18px;
+    font-weight: bold;
+    white-space: nowrap;
 }
 
 .information-header {
@@ -152,4 +153,55 @@ button {
 
 .information-text {
     text-align: center;
+}
+
+.quote {
+    padding: 50px 400px;
+}
+
+.quote-end {
+    text-align: end;
+}
+
+.hero-button {
+    border: none;
+}
+
+.bottom-button {
+    border: solid white;
+    align-self: center;
+}
+
+.call-to-action {
+    margin: 100px 300px;
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 400px;
+}
+
+.call-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.call-text {
+    font-weight: 300;
+}
+
+.call-title, .call-text {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.call {
+    padding-right: 50px;
 }
