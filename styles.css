@@ -1,5 +1,9 @@
 .hero {
-    background-color: #1F2937;;
+    background-color: #1F2937;
+    padding-top: 10px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 80px;
 }
 
 .footer {
@@ -12,7 +16,7 @@
     color: #F9FAF8;
 }
 
-.header-links, .hero-secondary-text {
+.hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -61,4 +65,54 @@ button, .call-to-action {
 image {
     width: 300px;
     height: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.hero-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-image {
+    background-color: gray;
+    display: flex;
+    color: white;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 8px;
 }
